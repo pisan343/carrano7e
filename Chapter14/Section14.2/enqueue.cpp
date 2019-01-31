@@ -1,0 +1,1 @@
+//  Created by Frank M. Carrano and Timothy M. Henry.//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.template<class ItemType>bool SL_PriorityQueue<ItemType>::enqueue(const ItemType& newEntry){    return slistPtr->insertSorted(newEntry);}  // end enqueue   

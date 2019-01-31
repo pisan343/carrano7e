@@ -1,0 +1,1 @@
+//  Created by Frank M. Carrano and Timothy M. Henry.//  Copyright (c) 2017 Pearson Education, Hoboken, New Jersey.template<class ItemType>bool SL_PriorityQueue<ItemType>::dequeue(){   // The highest-priority item is at the end of the sorted list   return slistPtr->removeSorted(slistPtr->getLength());}  // end dequeue
