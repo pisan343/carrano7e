@@ -15,7 +15,7 @@ bool ArrayList<ItemType>::insert(int newPosition, const ItemType& newEntry)
          items[pos] = items[pos - 1];
          
       // Insert new entry
-      items[newPosition] = newEntry;
+      items[newPosition - 1] = newEntry;
       itemCount++;  // Increase count of entries
    }  // end if
    
